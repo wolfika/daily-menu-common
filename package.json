@@ -1,0 +1,33 @@
+{
+  "name": "@daily-menu/common",
+  "version": "1.0.0",
+  "description": "Common library source code which can be shared between @daily-menu/core and its plugins.",
+  "license": "MIT",
+  "repository": "wolfika/daily-menu-common",
+  "author": {
+    "name": "Máté Farkas",
+    "email": "info@wolfika.eu",
+    "url": "https://wolfika.github.io"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "lint": "eslint src/**/*.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/got": "^9.6.7",
+    "@types/node": "^12.11.5",
+    "@typescript-eslint/eslint-plugin": "^2.4.0",
+    "@typescript-eslint/parser": "^2.4.0",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^1.18.2",
+    "typescript": "^3.6.4"
+  },
+  "peerDependencies": {
+    "got": "^9.6.0"
+  }
+}
